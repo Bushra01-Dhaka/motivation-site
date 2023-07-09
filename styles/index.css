@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* for all section */
+section {
+    margin-top: 150px;
+}
+
+
+/* header part style */
+
+header {
+    background-image: url("../images/banner/banner3.png");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    /* text-align: right; */
+}
+
+.banner {
+    /* margin: 200px 800px 150px 200px; */
+    position: absolute;
+    right: 0;
+    /* top:0; */
+    text-align: right;
+
+
+}
+
+.banner-title {
+    max-width: 500px;
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 220px;
+    margin-right: 230px;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 500px;
+    margin: 24px 0px 32px;
+
+}
+
+/* button primary */
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    position: absolute;
+    right: 0;
+    margin-right: 230px;
+
+    color: #005FAC;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 5px 10px black;
+    border: 0;
+
+}
+
+/* main part style */
+
+.about {
+    margin-right: 450px;
+}
+
+.about-content {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 400px;
+    margin: 24px 0px 16px;
+}
+
+.about ul {
+    list-style: none;
+}
+
+/* very importan term to remember */
+.about ul>li:before {
+    content: '✓ ';
+    color: #16D887;
+    font-weight: 800;
+}
+
+.about ul>li {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+/* about image style */
+/* .about-img
+{
+    background-image: url("../images/gradient1.png");
+
+} */
+
+/* card style */
+.card-section {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plan-card {
+    margin-top: 50px;
+}
+
+.plan-card-title {
+    margin: 24px 0px 16px;
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-text {
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* photo added section style */
+.photo-description {
+    margin: 0px 230px;
+    background-image: url("../images/gradient1.png"), url("../images/watch.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    display: transparent;
+    height: 300px;
+}
+
+.photo-detail-box {
+
+    margin-left: 65px;
+}
+
+.photo-title {
+    padding-top: 60px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.photo-btn {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    /* margin-right: 230px; */
+
+    color: #005FAC;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 5px 10px black;
+    border: 0;
+    margin-top: 24px;
+}
+
+
+/* footer contact section style */
+.contact {
+    display: flex;
+    gap: 350px;
+    background-color: black;
+    color: white;
+
+}
+
+.contact input {
+    display: block;
+    border-radius: 5px;
+    margin-right: 200px;
+}
+
+
+.contact-details {
+    margin-left: 230px;
+}
+
+.contact-text {
+    max-width: 450px;
+}
+
+.only-text {
+    margin: 16px 0px 24px;
+
+}
+
+.last-text {
+    margin: 16px 0px 32px;
+
+}
+.social-links
+{
+    padding-bottom: 50px;
+}
+
+.contact-title {
+    padding-top: 130px;
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.contact-title2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 130px;
+}
+
+
+.text-bar {
+    margin: 30px 0px 16px;
+    width: 320px;
+    height: 65px;
+    background-color: #151414;
+    border: 1px solid white;
+   
+}
+
+.contact-btn
+{
+    width: 170px;
+    height: 65px;
+    background-color: #005FAC;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    font-size: 20px;
+    font-weight: 600;
+}
